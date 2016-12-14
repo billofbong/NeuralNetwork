@@ -6,14 +6,8 @@ import javax.swing.JFrame;
  * @author Will Wright
  * @author Corbin Naderzad
  */
-public class Main extends JFrame
+public class Main
 {
-	
-	public Main()
-	{
-		
-	}
-	
 	public static void main(String[] args)
 	{
 		new Main();
