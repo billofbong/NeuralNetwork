@@ -1,14 +1,22 @@
 package nn.core;
 
+import javax.swing.JFrame;
+
 /**
  * @author Will Wright
  * @author Corbin Naderzad
  */
-public class Main
+public class Main extends JFrame
 {
-	public static void main(String[] args)
+	
+	public Main()
 	{
 		
+	}
+	
+	public static void main(String[] args)
+	{
+		new Main();
 	}
 
 }
