@@ -55,7 +55,7 @@ public final class Vector2
 	 * @param vec2 The second 2D Vector.
 	 * @return A 2D Vector.
 	 */
-	public static Vector2 createdAddedVector(Vector2 vec1, Vector2 vec2)
+	public static Vector2 createAddedVector(Vector2 vec1, Vector2 vec2)
 	{
 		return new Vector2(vec1.getX() + vec2.getX(), vec1.getY() + vec2.getY());
 	}
