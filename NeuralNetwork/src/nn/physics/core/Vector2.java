@@ -17,6 +17,24 @@ public final class Vector2
 	 */
 	public Vector2(float x, float y)
 	{
+		init(x, y);
+	}
+	
+	/**
+	 * Constructs a 2D Vector with a x and y component values both equal to zero.
+	 */
+	public Vector2()
+	{
+		init(0f, 0f);
+	}
+	
+	/**
+	 * Method that all Constructors call to initialize variables.
+	 * @param x the x component of the vector.
+	 * @param y the y component of the vector.
+	 */
+	private void init(float x, float y)
+	{
 		this.x = x;
 		this.y = y;
 	}
